@@ -24,19 +24,19 @@ Analyze the distribution of orientations
 
 **Wall**
 
-Dominant single direction
-Strong directional consistency
+* Dominant single direction
+* Strong directional consistency
 
 **Corner**
 
-Multiple dominant directions
-Clear intersection between directions
+* Multiple dominant directions
+* Clear intersection between directions
 
 2. Depth-based Structural Refinement
 (1) Object Mask Generation
 Use depth map to identify:
-Near objects
-Sharp depth discontinuities
+* Near objects
+* Sharp depth discontinuities
 Generate an object mask
 Exclude object regions from further structural analysis
 
@@ -49,9 +49,12 @@ Analyze gradient flow within depth map
 **Key observations:**
 
 Wall-like structure
-Consistent gradient flow in a single direction
+
+* Consistent gradient flow in a single direction
+* 
 Corner-like structure
-Two distinct gradient flows intersecting
+
+* Two distinct gradient flows intersecting
 
 <img width="1809" height="576" alt="Gemini_Generated_Image_qa6ioaqa6ioaqa6i" src="https://github.com/user-attachments/assets/7f445c6b-82fb-4b7f-a8ac-c1581f8e4dcd" />
 
@@ -67,10 +70,11 @@ Generate as much structural information as possible, leaving final interpretatio
 
 Real-time edge + depth fusion
 Structural hypothesis visualization (wall / corner likelihood)
+
 **⚠️ Limitations**
-Depth maps from monocular estimation are inherently noisy
-Edge detection is sensitive to lighting and texture
-Structural inference may fluctuate frame-to-frame
+* Depth maps from monocular estimation are inherently noisy
+* Edge detection is sensitive to lighting and texture
+* Structural inference may fluctuate frame-to-frame
 
 **👉 On current stages of development:**
 
@@ -82,18 +86,21 @@ Unable to decide using a single frame
 This detector is not intended to be a final decision-maker, but rather:
 
 A feature generator for:
-Mapping systems
-Scene reconstruction pipelines
+* Mapping systems
+* Scene reconstruction pipelines
+ 
 Providing:
-Structural cues
-Directional consistency
-Candidate regions of interest
+* Structural cues
+*Directional consistency
+*Candidate regions of interest
+
 ## **🚀 Future Work**
 Temporal consistency enhancement
 Integration with SLAM / mapping pipelines
 Structural tracking across frames
-Long-term Vision
+
+**Long-term Vision**
 Improve robustness using deep learning-based refinement
 Learn:
-Stable structural priors
-Noise-resistant feature representations
+* Stable structural priors
+* Noise-resistant feature representations
