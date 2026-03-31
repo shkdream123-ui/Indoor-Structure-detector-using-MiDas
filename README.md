@@ -9,6 +9,7 @@ This project aims to explore a lightweight approach for indoor structural unders
 To detect simple indoor structural elements such as walls and corners by combining:
 Edge detection
 Gradient distribution from depth maps
+
 **Long-term goal**
 This work serves as a foundation for future indoor scene understanding, where higher-level systems (e.g., mapping or reconstruction) can leverage structurally meaningful cues extracted from raw visual input.
 
