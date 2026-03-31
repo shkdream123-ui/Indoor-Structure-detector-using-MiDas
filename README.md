@@ -67,16 +67,17 @@ Generate as much structural information as possible, leaving final interpretatio
 
 Real-time edge + depth fusion
 Structural hypothesis visualization (wall / corner likelihood)
-⚠️ Limitations
+**⚠️ Limitations**
 Depth maps from monocular estimation are inherently noisy
 Edge detection is sensitive to lighting and texture
 Structural inference may fluctuate frame-to-frame
 
-👉 On current stages of development:
+**👉 On current stages of development:**
 
 Fine-tuning is needed
 Unable to decide using a single frame
-🔄 System Perspective
+
+**🔄 System Perspective**
 
 This detector is not intended to be a final decision-maker, but rather:
 
