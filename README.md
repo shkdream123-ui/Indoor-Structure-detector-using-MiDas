@@ -23,11 +23,15 @@ Analyze the distribution of orientations
 **Heuristic scoring:**
 
 **Wall**
+
 Dominant single direction
 Strong directional consistency
+
 **Corner**
+
 Multiple dominant directions
 Clear intersection between directions
+
 2. Depth-based Structural Refinement
 (1) Object Mask Generation
 Use depth map to identify:
