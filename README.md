@@ -1,26 +1,30 @@
-Indoor Structure Detector using MiDaS
-📌 Introduction
+# **Indoor Structure Detector using MiDaS**
+
+
+# 📌 **Introduction**
 
 This project aims to explore a lightweight approach for indoor structural understanding using monocular depth estimation.
 
-Short-term goal
+# Short-term goal
 To detect simple indoor structural elements such as walls and corners by combining:
 Edge detection
 Gradient distribution from depth maps
-Long-term goal
+# Long-term goal
 This work serves as a foundation for future indoor scene understanding, where higher-level systems (e.g., mapping or reconstruction) can leverage structurally meaningful cues extracted from raw visual input.
-⚙️ Core Ideas & Methodology
+
+
+# **⚙️ Core Ideas & Methodology**
 1. Edge-based Structural Hypothesis
 Perform edge detection on input frames
 Extract dominant directions from detected edges
 Analyze the distribution of orientations
 
-Heuristic scoring:
+# Heuristic scoring:
 
-Wall
+# Wall
 Dominant single direction
 Strong directional consistency
-Corner
+# Corner
 Multiple dominant directions
 Clear intersection between directions
 2. Depth-based Structural Refinement
@@ -46,13 +50,13 @@ Two distinct gradient flows intersecting
 
 <img width="1809" height="576" alt="Gemini_Generated_Image_qa6ioaqa6ioaqa6i" src="https://github.com/user-attachments/assets/7f445c6b-82fb-4b7f-a8ac-c1581f8e4dcd" />
 
-🧠 Design Philosophy
+# **🧠 Design Philosophy**
 
 Rather than making a hard final decision, this detector is designed to:
 
 Generate as much structural information as possible, leaving final interpretation to higher-level systems.
 
-📊 Results
+# **📊 Results**
 
 ![structure-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/19579d6d-950e-415d-9a67-5babf8275c28)
 
@@ -78,7 +82,7 @@ Providing:
 Structural cues
 Directional consistency
 Candidate regions of interest
-🚀 Future Work
+# **🚀 Future Work**
 Temporal consistency enhancement
 Integration with SLAM / mapping pipelines
 Structural tracking across frames
