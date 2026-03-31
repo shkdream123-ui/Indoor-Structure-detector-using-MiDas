@@ -37,6 +37,7 @@ Analyze the distribution of orientations
 Use depth map to identify:
 * Near objects
 * Sharp depth discontinuities
+  
 Generate an object mask
 Exclude object regions from further structural analysis
 
@@ -51,7 +52,7 @@ Analyze gradient flow within depth map
 Wall-like structure
 
 * Consistent gradient flow in a single direction
-* 
+  
 Corner-like structure
 
 * Two distinct gradient flows intersecting
