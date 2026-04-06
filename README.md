@@ -95,6 +95,11 @@ Providing:
 *Directional consistency
 *Candidate regions of interest
 
+## ** Manual**
+1. Make an app through the Android Studio file using the link below.
+2. Make sure that the wifi used by the PC and the Android device is the same. Check the ip address through cmd(command is ipconfig), then reflect the address at Android Studio.
+3. Run python module.
+
 ## **🚀 Future Work**
 Temporal consistency enhancement
 Integration with SLAM / mapping pipelines
@@ -103,5 +108,5 @@ Structural tracking across frames
 **Long-term Vision**
 Improve robustness using deep learning-based refinement
 Learn:
-* Stable structural priors
+* Stab* le structural priors
 * Noise-resistant feature representations
