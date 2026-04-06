@@ -97,8 +97,9 @@ Providing:
 
 ## ** Manual**
 1. Make an app through the Android Studio file using the link below.
-2. Make sure that the wifi used by the PC and the Android device is the same. Check the ip address through cmd(command is ipconfig), then reflect the address at Android Studio.
-3. Run python module.
+   https://github.com/shkdream123-ui/2D-mapping-using-MIDAS-small
+3. Make sure that the wifi used by the PC and the Android device is the same. Check the ip address through cmd(command is ipconfig), then reflect the address at Android Studio.
+4. Run python module.
 
 ## **🚀 Future Work**
 Temporal consistency enhancement
