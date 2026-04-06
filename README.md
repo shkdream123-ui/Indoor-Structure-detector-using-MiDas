@@ -96,8 +96,10 @@ Providing:
 *Candidate regions of interest
 
 ## ** Manual**
-1. Make an app through the Android Studio file using the link below.
+1. Make an app through the Android Studio file(DepthrendererMidasSmall) using the link below.
+   
    https://github.com/shkdream123-ui/2D-mapping-using-MIDAS-small
+   
 3. Make sure that the wifi used by the PC and the Android device is the same. Check the ip address through cmd(command is ipconfig), then reflect the address at Android Studio.
 4. Run python module.
 
